@@ -1,0 +1,52 @@
+#clock
+{
+       height:500px;
+       width:500px;
+       background-image: url('../image/clock.gif');
+       margin:0px auto;
+       background-size: cover;
+       position: relative;
+    
+
+}
+#hr{
+      /* position:absolute;
+      bottom:50%;
+      right:50%;
+      top:50%;
+      bottom:50%; */
+
+
+       height:150px;
+       width:7px;
+       background-color: black;
+       transform-origin: bottom;
+       position:absolute;
+       left: 243.5;
+       top:100px;
+
+
+}
+#min{
+position:absolute;
+
+       height:170px;
+       width:5px;
+
+       background-color: red;
+       position:absolute;
+       transform-origin: bottom;
+       top: 80px;
+       left:245px;
+
+}
+#sec{
+       position: absolute;
+        top:60px;
+        left:245px;
+        transform-origin: bottom;
+       height:190px;
+       width:3px;
+       background-color: BLue;
+
+}
